@@ -1,4 +1,4 @@
-# models/models.py
+
 from sqlalchemy import Boolean, Column, Integer, String, DateTime 
 from database import Base  
 
@@ -9,4 +9,4 @@ class Events(Base):
     event_name = Column(String(50), unique=True)
     genre_name = Column(String(50))
     event_datetime = Column(DateTime(timezone=True))
-    description = Column(String(255), nullable=True) # Add this line
+    description = Column(String(255), nullable=True)

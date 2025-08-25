@@ -1,2 +1,2 @@
-# models/__init__.py
-from .models import Events # Ensure 'Events' is correctly imported
+
+from .models import Events 
